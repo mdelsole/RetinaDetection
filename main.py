@@ -47,7 +47,7 @@ plt.show()
 # Convolution means applying the filter to the input. When applying the gaussian filter, every neuron in the output
 # layer is excited by nearby image neurons. The result of the convolution can then also be visualized in an image
 
-Img_bugHat = signal.convolve(robotImg,receptiveFieldMatrix(lambda x,y: mexicanHat(x,y,2,3)), mode='same')
-imgplot = plt.imshow(Img_bugHat, cmap=plt.get_cmap('gray'))
+robotHat = signal.convolve(robotImg,receptiveFieldMatrix(lambda x,y: mexicanHat(x,y,2,3)), mode='same')
+imgplot = plt.imshow(robotHat, cmap=plt.get_cmap('gray'))
 plt.show()
 
