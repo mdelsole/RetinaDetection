@@ -8,7 +8,7 @@ We'll start by taking in an image. Let's try this robot:
   
 
 
-First thing to do is form the retina filter. If you're familiar with convolutiona neural nets, this is the same concept: running a filter over an image.
+First thing to do is form the retina filter. If you're familiar with convolutional neural nets, this is the same concept: running a filter over an image.
 
 By the way, these axes are in pixels. I've included them so you can see the scale of the filter relative to the image. You'll notice the size of the filter is much smaller than the image, similar to how our eyes are smaller than many things we look at.
 
